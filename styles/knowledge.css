@@ -237,3 +237,52 @@ header{
     color: #627382;
     text-align: center;
 }
+#brain{
+    padding-top: 120px;
+}
+#brain .brain-container{
+    width: 85%;
+    max-width: 1360px;
+    height: 600px;
+    margin: 0 auto;
+    display: flex;
+    gap: 60px;
+
+}
+.brain-banner img{
+    height: 600px;
+    width: 600px;
+    border-radius: 12px;
+}
+.brain-content{
+    margin: 102px 0;
+}
+.brain-content .p1{
+    margin-bottom: 16px;
+    font-size: 16px;
+    line-height: 20PX;
+    color: #30B868;
+    font-weight: 500px;
+}
+.brain-content h1{
+    margin-bottom: 16px;
+    font-size: 48px;
+    font-weight: 700px;
+    color: #001931;
+}
+.brain-content .p2{
+    margin-bottom: 40px;
+    font-size: 16px;
+    line-height: 20px;
+    color: #627382;
+}
+.brain-list{
+    list-style-type: none;
+}
+.brain-list li{
+    margin-bottom: 16px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    color: #001931;
+}
