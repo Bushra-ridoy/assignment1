@@ -3,6 +3,11 @@
     padding: 0;
     box-sizing: border-box;
 }
+.wrap{
+    width: 100%;
+    max-width: 1600px;
+    height: 2908px;
+}
 .font-inter {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
@@ -10,6 +15,7 @@
 nav{
     width: 85%;
     max-width: 1360px;
+    height: 92px;
     margin: 0px auto;
     display: flex;
     justify-content: space-between;
@@ -25,6 +31,7 @@ nav .menu{
     list-style-type: none;
     gap: 32px;
     align-items: center;
+
 }
 nav .menu a{
     font-size: 16px;
@@ -53,6 +60,9 @@ nav .menu a{
 }
 header{
     padding-top: 24px;
+    width: 100%;
+    max-width: 1600px;
+    height: 766px;
 }
 #hero{
     margin: 0px 0px;
@@ -71,34 +81,37 @@ header{
   padding: 115.5px 120px 179.5px 120px;
 }
 #hero .hero-content{
-    /* width: 85%;
-    max-width: 1360px; */
-    /* padding: 115.5px 120px 179.5px 120px; */
     text-align: center;
     
 }
-/* .hero-content .primary-content{
-    width: 85%;
-    max-width: 1360px;
-} */
 .hero-content .btn1{
     margin-bottom: 16px;
     font-size: 16px;
     color: #30B868;
     font-weight: 500;
-    padding: 8px 12px 8px 34px;
+    padding: 8px 12px 8px 12px;
     border-radius: 1000px;
     background-color: #FFFFFF;
     width: 229px;
-    height: 35px;
+    height: 36px;
     opacity: 100%;
     gap: 6px;
     display: inline-flex;
     align-items: center;
+    justify-content: center;
     cursor: pointer;
+    white-space: nowrap;
 }
 .btn1:hover{
     background-color: #F2F2F2;
+}
+.dot{
+  width:10px;
+  height:10px;
+  background:#0f7a2f;
+  border-radius:50%;
+  box-shadow:0 0 0 8px rgba(34,197,94,.25);
+  margin: 6px 6px;
 }
 .hero-content h1 .heading1{
     color: #FFFFFF;
@@ -117,7 +130,6 @@ header{
     color: #FFFFFF;
     font-size: 18px;
     line-height: 24px;
-    /* margin: 24px auto 0;  */
     margin-bottom: 32px;
     text-align: center;
 
@@ -160,18 +172,16 @@ header{
     cursor: pointer;
     white-space: nowrap;
 }
-/* .secondary-btn .fa-solid .fa-play{
-    background: transparent;
-} */
-
-
 .secondary-btn:hover{
      background: rgba(255, 255, 255, 0.1);
 }
 #item{
-    padding-top: 80px;
+    width: 100%;
+    max-width: 1600px;
+    height: 448px;
 }
 #item .item-container{
+    padding-top: 80px;
     width: 85%;
     max-width: 1360px;
     margin: 0 auto;
@@ -243,9 +253,12 @@ header{
     text-align: center;
 }
 #brain{
-    padding-top: 120px;
+    width: 100%;
+    max-width: 1600px;
+    height: 840px;
 }
 #brain .brain-container{
+    padding-top: 120px;
     width: 85%;
     max-width: 1360px;
     height: 600px;
@@ -284,6 +297,23 @@ header{
 .brain-list{
     list-style-type: none;
 }
+.correct {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 20px;
+  height: 20px;
+
+  background: #22c55e;
+  color: white;
+
+  border-radius: 50%;
+  font-size: 12px;
+  font-weight: bold;
+
+  margin-right: 6px;
+}
 .brain-list li{
     margin-bottom: 16px;
     font-size: 16px;
@@ -292,7 +322,9 @@ header{
     color: #001931;
 }
 #problem{
-    padding-top: 120px;
+    width: 100%;
+    max-width: 1600px;
+    height: 506px;
 }
 #problem .problem-container{
     background-color: #F7F6F2;
@@ -368,6 +400,7 @@ width: 220px;
     font-weight: 500;
     line-height: 28px;
     color: #FFFFFF;
+    padding-bottom: 16px;
 }
 .foot-content .social-list{
 list-style-type: none;
@@ -395,4 +428,11 @@ gap: 16px;
     background: #2a4552;
     border: none;
     height: 1px;
+}
+.social-list li{
+    border-radius: 50%;
+    background-color: #FFFFFF;
+}
+.media{
+    color: #000000;
 }
