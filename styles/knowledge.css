@@ -154,12 +154,17 @@ header{
     font-size: 16px;
     color: #FFFFFF;
     font-weight: 600;
-    padding: 16.5px 16px 16.5px 46px;
+    padding: 16.5px 16px 16.5px 16px;
     width: 198px;
     height: 52px;
     cursor: pointer;
     white-space: nowrap;
 }
+/* .secondary-btn .fa-solid .fa-play{
+    background: transparent;
+} */
+
+
 .secondary-btn:hover{
      background: rgba(255, 255, 255, 0.1);
 }
@@ -285,4 +290,109 @@ header{
     font-weight: 500;
     line-height: 20px;
     color: #001931;
+}
+#problem{
+    padding-top: 120px;
+}
+#problem .problem-container{
+    background-color: #F7F6F2;
+    width: 85%;
+    max-width: 1360PX;
+    margin: 2px auto 120px;
+    height: 385px;
+    border-radius: 12px;
+    align-items: center;
+    text-align: center;
+}
+.problem-container h1{
+    font-size: 40px;
+    font-weight: 700;
+    color: #001931;
+    margin-bottom: 16px;
+    padding-top: 80px;
+}
+.problem-container .p3{
+margin-bottom: 24px;
+font-size: 16px;
+line-height: 24px;
+color: #627382;
+}
+.problem-btn{
+    height: 52px;
+    width: 194px;
+    border-radius: 4px;
+    background-color: #30B868;
+    font-size: 16px;
+    font-weight: 600;
+    color: #FFFFFF;
+    padding: 16.5px 46px 16.5px 16px;
+    cursor: pointer;
+    white-space: nowrap;
+    margin-bottom: 16px;
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.15);
+}
+.problem-btn:hover{
+    background-color: #259A56;
+}
+.problem-container .p4{
+    font-size: 16px;
+    line-height: 20px;
+    color: #627382;
+}
+#last{
+    padding-top: 120px;
+    background-color: #001931;
+    width: 100%;
+    max-width: 1600px;
+    height: 348px;
+}
+#last .foot-logo{
+    width: 85%;
+    max-width: 1360px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    height: 64px;
+    margin-bottom: 80px;
+}
+.foot-logo img{
+    height: 60px;
+    width: 139px;
+}
+.foot-content{
+height: 64px;
+width: 220px;
+}
+.foot-content p{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+.foot-content .social-list{
+list-style-type: none;
+display: flex;
+gap: 16px;
+}
+.social-list li a{
+    text-decoration: none;
+}
+#last .foot-end{
+    width: 85%;
+    max-width: 1360px;
+    margin-bottom: 30px;
+    margin: 0 auto;
+}
+.foot-end p{
+    font-size: 16px;
+    line-height: 24px;
+    color: #FAFAFA;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 0;
+}
+.foot-end .line{
+    background: #2a4552;
+    border: none;
+    height: 1px;
 }
