@@ -25,12 +25,14 @@ nav{
     height: 60px;
     width: 139px;
     margin-bottom: 16px;
+    margin-top: 16px;
 }
 nav .menu{
     display: flex;
     list-style-type: none;
     gap: 32px;
     align-items: center;
+    
 
 }
 nav .menu a{
@@ -53,13 +55,14 @@ nav .menu a{
     height: 44px;
     width: 164px;
     margin-bottom: 24px;
+    margin-top: 24px;
     
 }
 .btn:hover{
     background-color: #259A56;
 }
 header{
-    padding-top: 24px;
+    /* padding-top: 24px; */
     width: 100%;
     max-width: 1600px;
     height: 766px;
